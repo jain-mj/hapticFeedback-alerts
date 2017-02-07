@@ -10,6 +10,8 @@ import UIKit
 import AudioToolbox
 import SystemConfiguration
 
+// Enums to classify Feedback kinds
+
 enum ENotificationFeedbackType: Int
 {
     case success = 0
