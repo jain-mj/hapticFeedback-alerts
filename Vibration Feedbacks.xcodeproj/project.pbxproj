@@ -12,6 +12,7 @@
 		43E9A4B51E4A0C2B006C2D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E9A4AA1E4A0C2B006C2D79 /* Assets.xcassets */; };
 		43E9A4B61E4A0C2B006C2D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E9A4AB1E4A0C2B006C2D79 /* LaunchScreen.storyboard */; };
 		43E9A4B71E4A0C2B006C2D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E9A4AD1E4A0C2B006C2D79 /* Main.storyboard */; };
+		43E9A4B81E4A0C2B006C2D79 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9A4AF1E4A0C2B006C2D79 /* Devices.swift */; };
 		43E9A4BA1E4A0C2B006C2D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E9A4B11E4A0C2B006C2D79 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,12 +35,13 @@
 
 /* Begin PBXFileReference section */
 		01189F241DD44B5100D8DF37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		434BCE111E4A412100C79DAD /* Vibration FeedbacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Vibration FeedbacksTests.xctest"; path = "/Users/mukuljain/hapticFeedback-alerts/build/Debug-iphoneos/Vibration FeedbacksTests.xctest"; sourceTree = "<absolute>"; };
-		434BCE121E4A412100C79DAD /* Vibration FeedbacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Vibration FeedbacksUITests.xctest"; path = "/Users/mukuljain/hapticFeedback-alerts/build/Debug-iphoneos/Vibration FeedbacksUITests.xctest"; sourceTree = "<absolute>"; };
+		434CAFA81E4A495F000B0CF0 /* Vibration FeedbacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Vibration FeedbacksTests.xctest"; path = "/Users/mukuljain/hapticFeedback-alerts/build/Debug-iphoneos/Vibration FeedbacksTests.xctest"; sourceTree = "<absolute>"; };
+		434CAFA91E4A495F000B0CF0 /* Vibration FeedbacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Vibration FeedbacksUITests.xctest"; path = "/Users/mukuljain/hapticFeedback-alerts/build/Debug-iphoneos/Vibration FeedbacksUITests.xctest"; sourceTree = "<absolute>"; };
 		43E9A4A91E4A0C2B006C2D79 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E9A4AA1E4A0C2B006C2D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43E9A4AC1E4A0C2B006C2D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43E9A4AE1E4A0C2B006C2D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43E9A4AF1E4A0C2B006C2D79 /* Devices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
 		43E9A4B01E4A0C2B006C2D79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E9A4B11E4A0C2B006C2D79 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43E9A4BB1E4A0C42006C2D79 /* Vibration Feedbacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Vibration Feedbacks.app"; path = "/Users/mukuljain/hapticFeedback-alerts/build/Debug-iphoneos/Vibration Feedbacks.app"; sourceTree = "<absolute>"; };
@@ -92,6 +94,7 @@
 			children = (
 				43E9A4A91E4A0C2B006C2D79 /* AppDelegate.swift */,
 				43E9A4B11E4A0C2B006C2D79 /* ViewController.swift */,
+				43E9A4AF1E4A0C2B006C2D79 /* Devices.swift */,
 				43E9A4AB1E4A0C2B006C2D79 /* LaunchScreen.storyboard */,
 				43E9A4AD1E4A0C2B006C2D79 /* Main.storyboard */,
 				43E9A4AA1E4A0C2B006C2D79 /* Assets.xcassets */,
@@ -135,7 +138,7 @@
 			);
 			name = "Vibration FeedbacksTests";
 			productName = "Alert VibratorTests";
-			productReference = 434BCE111E4A412100C79DAD /* Vibration FeedbacksTests.xctest */;
+			productReference = 434CAFA81E4A495F000B0CF0 /* Vibration FeedbacksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		01189F101DD44B2800D8DF37 /* Vibration FeedbacksUITests */ = {
@@ -153,7 +156,7 @@
 			);
 			name = "Vibration FeedbacksUITests";
 			productName = "Alert VibratorUITests";
-			productReference = 434BCE121E4A412100C79DAD /* Vibration FeedbacksUITests.xctest */;
+			productReference = 434CAFA91E4A495F000B0CF0 /* Vibration FeedbacksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,6 +239,7 @@
 			files = (
 				43E9A4BA1E4A0C2B006C2D79 /* ViewController.swift in Sources */,
 				43E9A4B21E4A0C2B006C2D79 /* AppDelegate.swift in Sources */,
+				43E9A4B81E4A0C2B006C2D79 /* Devices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

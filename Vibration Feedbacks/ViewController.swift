@@ -74,8 +74,7 @@ class ViewController: UIViewController
     
     @IBAction func lightImpactFeedback(_ sender: AnyObject)
     {
-        self.generateImpactFeedabck(type: .lightImpact)
-        
+        self.generateImpactFeedabck(type: .lightImpact) 
     }
     
     @IBAction func mediumImpactFeedback(_ sender: AnyObject)
